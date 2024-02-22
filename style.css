@@ -1,0 +1,29 @@
+.flex-container{
+    display: flex;
+
+}
+.flex-container div{
+    display: flex;
+    justify-content: space-between;
+    background: tan;
+    border: 4px black;
+    padding: 10px;
+    margin: 50px;
+    flex-wrap: wrap;
+    font-weight: 700;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.poke{
+    align-content:baseline;
+}
+.ingredients{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.steps{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
