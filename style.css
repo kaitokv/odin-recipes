@@ -16,14 +16,58 @@
 h1{
     text-align: center;
 }
-.poke{
-    align-content:baseline;
+
+.ahi-container{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
 }
-.ingredients{
+
+.ahi-piccaption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid black; 
+    flex-wrap: wrap;   
+}
+.ahi-pic{
+    display: flex;
+    flex: 1 1 0;
+    flex-wrap: nowrap;
+    min-height: 10;
+    
+    height: fit-content;
+    
+}
+.ahi-content{
+    display: flex;
+    flex: 2 1 0;
+}
+.ahi-title{
+    font-weight: 800;
+    font-size: 200px;
+    background-color: aqua;
+    color: brown;
+    border: solid black;
+}
+/*
+.ahi-ingredients{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+    justify-content: flex-end;
+    border: solid black;
 }
-.steps{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
+.ahi-steps{
+    width: 50%;
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    border: solid black;
 }
